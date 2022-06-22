@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d33f3f;
+    color: white;
+}
+
+#pomodoro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 25px;
+    width: 600px;
+}
+
+#pomo-timer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120px;
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+#pomodoro button {
+    font-size: 25px;
+    font-family: 'Anek Latin', sans-serif;;
+    height: 80px;
+    width: 180px;
+    padding: 18px 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 3px;
+    box-shadow: 4px 4px 1px 3px rgba(0, 0, 0, 0.596);
+    transition: .3s;
+}
+
+#pomodoro button:hover {
+    background-color: #d33f3f;
+    color: white;
+    border: 3px solid white;
+    box-shadow: 0px 6px 1px 1px rgba(255, 255, 255, 0.685);
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
